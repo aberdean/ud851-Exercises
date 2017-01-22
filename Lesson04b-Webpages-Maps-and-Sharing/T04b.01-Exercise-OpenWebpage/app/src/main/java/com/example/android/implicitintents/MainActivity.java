@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
      * @param v Button that was clicked.
      */
     public void onClickOpenWebpageButton(View v) {
-        String urlAsString = "http://www.udacity.com";
+        String urlAsString = "https://www.udacity.com";
         openWebPage(urlAsString);
     }
 
