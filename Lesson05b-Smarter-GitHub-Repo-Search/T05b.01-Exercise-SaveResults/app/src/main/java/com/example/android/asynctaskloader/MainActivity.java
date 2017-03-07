@@ -159,14 +159,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
+        public void onSaveInstanceState(Bundle outState) {
+            super.onSaveInstanceState(outState);
 
-        String queryUrl = mUrlDisplayTextView.getText().toString();
-        outState.putString(QUERY_URL, queryUrl);
+            String queryUrl = mUrlDisplayTextView.getText().toString();
+            outState.putString(QUERY_URL, queryUrl);
 
-        String rawJsonResults = mSearchResultsTextView.getText().toString();
-        outState.putString(JSON_RESULTS, rawJsonResults);
+            String rawJsonResults = mSearchResultsTextView.getText().toString();
+            outState.putString(JSON_RESULTS, rawJsonResults);
     }
 
 }
